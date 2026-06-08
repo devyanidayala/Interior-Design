@@ -1,0 +1,293 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.clear{
+    clear: both;
+}
+
+
+/* sidebar */
+.sidebar{
+    width: 100%;
+}
+
+.side{
+    width: 20%;
+    height: 1000px;
+    padding-left: 30px;
+    padding-top: 80px;
+    background-color: #f44336;
+}
+
+.side h2{
+    color: white;
+    text-align: left;
+    padding:64px 16px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu{
+    width: 20%;
+     background-color: #f44336;
+}
+
+.menu button {
+    background-color: #f44336;
+    padding:  10px 16px;
+    font-size: 14px;
+    font-weight: 200px;
+    border: 0px;
+}
+
+.menu button a{
+    color: white;
+}
+
+.menu button a:hover{
+    padding: 8px 30px;
+    background-color: white;
+    color: black;
+}
+
+/* design section */
+.main{
+    float: right;
+    padding-left: 40px;
+    padding-top: 80px ;
+    width: 80%;
+}
+
+.content h2{
+    font-size: 64px;
+}
+
+/* img section */
+.img img{
+    height: 500px;
+    width: 550px;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+.img1 img{
+    height: 300px;
+    width: 550px;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+.img2 img{
+    height: 300px;
+    width: 550px;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+/* services */
+.Service{
+    padding: 20px 1px;
+    font-size: 30px;
+    color: black;
+
+}
+
+.Service p{
+    padding: 20px 10px;
+}
+
+/* desiners */
+.desiners{
+    padding: 20px 1px;
+    font-size: 30px;
+    color: black;
+}
+
+.desiners p{
+    padding: 20px 10px;
+}
+
+.desiners h5{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+/* desires */
+.desire{
+    display: flex;
+    padding: 0px 4px;    
+}
+
+.man{
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(241,241,241);
+    border: 2px solid grey;
+    box-shadow: 10;
+    margin-right: 10px;
+
+}
+
+.man img{
+    width: 100%;
+    height: 239px;
+}
+
+.desire .man h2{
+   text-align: left;
+    padding: 10px;
+}
+
+.desire .man h6{
+   text-align: left;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.desire .man p{
+   text-align: left;
+    margin: 8px;
+    padding: 10px;
+}
+
+
+
+/* man2 */
+.man1{
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(241,241,241);
+    border: 2px solid grey;
+    box-shadow: 10;
+    margin-right: 10px;
+
+}
+
+.man1 img{
+    width: 100%;
+    height: 239px;
+}
+
+.desire .man1 h2{
+   text-align: left;
+    padding: 10px;
+}
+
+.desire .man1 h6{
+   text-align: left;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.desire .man1 p{
+   text-align: left;
+    margin: 8px;
+    padding: 10px;
+}
+
+
+/* man3 */
+.man2{
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(241,241,241);
+    border: 2px solid grey;
+    box-shadow: 10;
+
+}
+
+.man2 img{
+    width: 100%;
+    height: 239px;
+}
+
+.desire .man2 h2{
+   text-align: left;
+    padding: 10px;
+}
+
+.desire .man2 h6{
+   text-align: left;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.desire .man2 p{
+   text-align: left;
+    margin: 8px;
+    padding: 10px;
+}
+
+
+/* package section */
+.package{
+    padding: 10px;
+}
+
+.package1 h2{
+    padding: 10px 0px;
+}
+
+.package1 p{
+    padding: 10px 0px;
+}
+
+.table{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.table1{
+    width: 546px;
+    height: 600px;
+    padding: 0px 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.table1 ul li{
+    background-color: rgb(241, 241, 241);
+    padding: 20px 0px;
+}
+
+.table1 button{
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    margin: 10px;
+}
+
+.table2{
+    width: 546px;
+    height: 600px;
+    padding: 0px 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.table2 ul li{
+    background-color: rgb(241, 241, 241);
+    padding: 20px 0px;
+}
+
+.table2 button{
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    margin: 10px;
+}
